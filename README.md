@@ -74,7 +74,7 @@ This project is open source and available under the MIT License.
 
 ## Live Demo
 
-Visit the live application: [GitHub Pages URL will be added after deployment]
+Visit the live application: [[GitHub Pages URL]](https://jakawiguna.github.io/CodingCamp-290925-jakahajarwiguna/)
 
 ---
 
