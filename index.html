@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">Todo List</h1>
+        </header>
+
+        <!-- Input Section -->
+        <section class="input-section">
+            <div class="input-group">
+                <input type="text" id="todoInput" class="todo-input" placeholder="Add a todo..." required>
+                <input type="date" id="dateInput" class="date-input" required>
+                <button id="addBtn" class="add-btn">
+                    <span class="add-icon">+</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <section class="action-section">
+            <button id="filterBtn" class="filter-btn">FILTER</button>
+            <button id="deleteAllBtn" class="delete-all-btn">DELETE ALL</button>
+        </section>
+
+        <!-- Todo List Display -->
+        <section class="todo-section">
+            <div class="table-container">
+                <table class="todo-table">
+                    <thead>
+                        <tr>
+                            <th class="task-header">TASK</th>
+                            <th class="date-header">DUE DATE</th>
+                            <th class="status-header">STATUS</th>
+                            <th class="actions-header">ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="todoTableBody">
+                        <tr class="empty-row">
+                            <td colspan="4" class="empty-message">No task found</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
